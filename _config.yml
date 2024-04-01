@@ -260,8 +260,8 @@ web_analytics:  # 网页访问统计
   google:
     measurement_id:
 
-  # Umami Analytics 仅支持自部署。src 和 data-website-id 是必填项，其他可选
-  # Umami Analytics, only Self-host support, src and data-website-id are required, others are optional
+  # Umami Analytics，src 和 data-website-id 是必填项，其他可选
+  # Umami Analytics, src and data-website-id are required, others are optional
   umami:
     # umami js 文件地址，需要在 umami 后台创建站点后获取
     # umami js file url, get after create website in umami
@@ -275,8 +275,8 @@ web_analytics:  # 网页访问统计
     # Helps if you are working in a staging/development environment. Avoids tracking localhost.
     data_domains:
 
-    # 以下为 PV UV 统计的高级功能，需要获取相关参数，参考 umami 官方文档：https://umami.is/docs/authentication
-    # Advanced features of PV UV statistics, need to get the relevant parameters
+    # 以下为 PV UV 统计的高级功能，仅支持自部署。需要获取相关参数，参考 umami 官方文档：https://umami.is/docs/authentication
+    # Advanced features of PV UV statistics, only supports Self-host, need to get the relevant parameters
 
     # 开始时间，用于统计 PV UV 的开始时间，填写在 umami 创建站点的时间即可，格式为 "YYYY-MM-DD"，如 "2024-01-01"，end_time 默认为当前时间
     # Start time, used to start the statistics of PV UV, fill in the time when the umami site is created, the format is "YYYY-MM-DD", such as "2024-01-01", end_time is the current time by default
